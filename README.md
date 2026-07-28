@@ -6,7 +6,13 @@ The original FC1307A firmware does not support this command and the PSX rejects 
 
 The firmware supports SD cards larger than 128 GB and has been successfully tested with a 256 GB card.
 
-Tested with:
+## Video
+
+[![Watch the FC1307A PSX DVR mod video](https://img.youtube.com/vi/S4Ubpu-f1K8/maxresdefault.jpg)](https://youtu.be/S4Ubpu-f1K8)
+
+[Watch the full FC1307A PSX DVR modification video on YouTube](https://youtu.be/S4Ubpu-f1K8)
+
+## Tested hardware
 
 - Sony PSX DESR-5000
 - Sony PSX DESR-5100
@@ -22,6 +28,7 @@ Tested with:
 3. Copy the contents of the `__system` and `__sysconf` partitions.
 4. Power off the console and start it again.
 
-A full sector-by-sector HDD image is not required. The same PSX1 system files can be used on different first-generation PSX models after formatting the drive
+A full sector-by-sector HDD image is not required. The same PSX1 system files can be used on different first-generation PSX models after formatting the drive.
 
-!!! Always make a backup of the original SPI flash before programming !!!
+> [!WARNING]
+> Always make a backup of the original SPI flash before programming.
