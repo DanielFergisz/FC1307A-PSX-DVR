@@ -4,7 +4,7 @@ Custom firmware for FC1307A SD-to-IDE adapters, adding support for the Sony PSX 
 
 The original FC1307A firmware does not support this command and the PSX rejects the adapter. This version adds a proper 512-byte PIO response using the original FC1307A transfer routine.
 
-The firmware supports SD cards larger than 128 GB and has been successfully tested with a 256 GB card.
+The firmware supports SD cards larger than 128 GB and has been successfully tested with a 256 GB card and 1 TB.
 
 ## Video
 
