@@ -23,12 +23,19 @@ The firmware supports SD cards larger than 128 GB and has been successfully test
 
 ## Preparing the card
 
-1. Flash the modified firmware to the FC1307A adapter.
+1. Flash the modified firmware to the FC1307A adapter - IC: BY25D40EST.
 2. Format the card using the original uLaunchELF HDD Manager on the PSX (FMCB card required for PSX).
 3. Copy the contents of the `__system` and `__sysconf` partitions.
 4. Power off the console and start it again.
 
 A full sector-by-sector HDD image is not required. The same PSX1 system files can be used on different first-generation PSX models after formatting the drive.
+
+OS v1.31:
+PL - https://repairbox.pl/PSX_DVR/Rev1/RepairBox_PSX1_SystemFiles_PL_v1.31.zip
+EN - https://repairbox.pl/PSX_DVR/Rev1/RepairBox_PSX1_SystemFiles_EN_v1.31.zip
+JP - https://repairbox.pl/PSX_DVR/Rev1/RepairBox_PSX1_SystemFiles_JP_v1.31.zip
+
+uLaunchELF: https://drive.google.com/file/d/1lH7ACkzD-JeFkqIqr2MXoNCG47ncfXEX/view?usp=sharing
 
 > [!WARNING]
 > Always make a backup of the original SPI flash before programming.
