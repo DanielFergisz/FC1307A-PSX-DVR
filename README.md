@@ -6,6 +6,8 @@ The original FC1307A firmware does not support this command, causing the PSX to 
 
 The firmware supports SD cards larger than 128 GB and has been successfully tested with 256 GB and 1 TB cards.
 
+It can also be used with compatible FC1307A-based 44-pin SD-to-IDE adapters commonly installed in PS2 Slim SCPH-700xx consoles. It extends card support beyond the original 128 GB limit, with SD cards up to 1 TB successfully tested.
+
 ## Video
 
 [![Watch the FC1307A PSX DVR mod video](https://img.youtube.com/vi/S4Ubpu-f1K8/maxresdefault.jpg)](https://youtu.be/S4Ubpu-f1K8)
