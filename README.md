@@ -24,7 +24,7 @@ The firmware supports SD cards larger than 128 GB and has been successfully test
 ## Preparing the card
 
 1. Flash the modified firmware to the FC1307A adapter.
-2. Format the card using the original uLaunchELF HDD Manager on the PSX.
+2. Format the card using the original uLaunchELF HDD Manager on the PSX (FMCB card required for PSX).
 3. Copy the contents of the `__system` and `__sysconf` partitions.
 4. Power off the console and start it again.
 
