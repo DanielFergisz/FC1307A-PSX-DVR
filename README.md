@@ -69,6 +69,21 @@ The remaining 384 bytes are filled with zeros. If the drive does not return the 
 
 A full sector-by-sector HDD image is not required. The same PSX1 system files can be used on different first-generation PSX models after formatting the drive and removing `registry.db`.
 
+## Troubleshooting
+
+### Incorrect `__system` partition size
+
+In some cases, uLaunchELF HDD Manager may create the `__system` partition with a size of only 32 MB instead of the expected 256 MB.
+
+Do not copy the system files if the partition was created with the incorrect size.
+
+If this happens:
+
+1. Fully power off the console and format the card again.
+2. If the problem persists, try a different SD card.
+
+The exact cause of this issue has not yet been identified. During testing, the same FC1307A adapter and SD card were formatted correctly in another supported first-generation PSX console, suggesting that the problem may depend on the specific console, adapter and card combination.
+
 ## PSX OS v1.31
 
 - [Polish version](https://repairbox.pl/PSX_DVR/Rev1/RepairBox_PSX1_SystemFiles_PL_v1.31.zip)
