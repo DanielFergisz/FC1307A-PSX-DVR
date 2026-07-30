@@ -4,13 +4,15 @@ Custom firmware for FC1307A SD-to-IDE adapters, adding support for the Sony PSX 
 
 The original FC1307A firmware does not support this command, causing the PSX to reject the adapter. This version adds the required 512-byte PIO response using the original FC1307A transfer routine.
 
-The firmware supports SD cards larger than 128 GB and has been successfully tested with 256 GB and 1 TB cards.
+The firmware extends SD card support beyond the original 128 GB limit and has been successfully tested with 256 GB and 1 TB cards.
 
-It can also be used with compatible FC1307A-based 44-pin SD-to-IDE adapters commonly installed in PS2 Slim SCPH-700xx consoles. It extends card support beyond the original 128 GB limit, with SD cards up to 1 TB successfully tested.
+It can also be used with compatible FC1307A-based 44-pin SD-to-IDE adapters commonly installed in PS2 Slim SCPH-700xx consoles.
 
 ## How the HDD check works
 
 During startup, the PSX verifies the internal drive by writing `0xEC` to the ATA Features register and then issuing the vendor-specific command `0x8E`.
+
+In the tested startup sequence, the console performs this verification twice.
 
 ```text
 Features = 0xEC
@@ -45,18 +47,27 @@ The remaining 384 bytes are filled with zeros. If the drive does not return the 
 - Sony PSX DESR-7000
 - Sony PSX DESR-7100
 - 64 GB, 256 GB and 1 TB SD cards
-- FC1307A SD-to-IDE adapter
+- FC1307A-based SD-to-IDE adapter
+- FC1307A-based 44-pin SD-to-IDE adapter for PS2 Slim SCPH-700xx
 
 ## Preparing the card
 
 1. Flash the modified firmware to the FC1307A adapter.
-   - SPI flash IC: `BY25D40EST`
+   - Tested SPI flash IC: `BY25D40EST`
+   - Adapter production batches may use differently marked compatible 512 KB SPI flash chips.
 2. Format the card using the original uLaunchELF HDD Manager on the PSX.
    - An FMCB memory card is required to run uLaunchELF on the PSX.
 3. Copy the contents of the `__system` and `__sysconf` partitions.
-4. Power off the console completely and start it again.
+4. When using system files copied from another console, another source or a different PSX model, delete:
 
-A full sector-by-sector HDD image is not required. The same PSX1 system files can be used on different first-generation PSX models after formatting the drive.
+   ```text
+   hdd0:__system/registry.db
+   ```
+
+   The file may be kept when restoring a backup created on the same console to that same console. Otherwise, it will be recreated automatically during the next startup.
+5. Power off the console completely and start it again.
+
+A full sector-by-sector HDD image is not required. The same PSX1 system files can be used on different first-generation PSX models after formatting the drive and removing `registry.db`.
 
 ## PSX OS v1.31
 
@@ -70,3 +81,5 @@ A full sector-by-sector HDD image is not required. The same PSX1 system files ca
 
 > [!WARNING]
 > Always make a backup of the original SPI flash before programming.
+>
+> Verify that the adapter uses an FC1307A controller and a compatible 512 KB SPI flash chip before flashing.
