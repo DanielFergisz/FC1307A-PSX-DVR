@@ -50,6 +50,13 @@ The remaining 384 bytes are filled with zeros. If the drive does not return the 
 - FC1307A-based SD-to-IDE adapter
 - FC1307A-based 44-pin SD-to-IDE adapter for PS2 Slim SCPH-700xx
 
+## Connecting the adapter to the PSX
+
+> [!CAUTION]
+> The 40-pin IDE connector in the PSX is mounted upside down compared with a standard IDE hard drive. It has no key, so the cable can easily be connected the wrong way around.
+>
+> Before powering on the console, compare the cable orientation with the original HDD and make sure pin 1 is in the correct position. Connecting it backwards may damage the adapter or the console.
+
 ## Preparing the card
 
 1. Flash the modified firmware to the FC1307A adapter.
