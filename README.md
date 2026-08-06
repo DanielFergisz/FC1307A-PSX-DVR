@@ -48,6 +48,7 @@ The remaining 384 bytes are filled with zeros. If the drive does not return the 
 - Sony PSX DESR-7100
 - 64 GB, 256 GB and 1 TB SD cards
 - FC1307A-based 40-pin SD-to-IDE adapter
+- FC1307A-based 40-pin MicroSD-to-IDE adapter
 - FC1307A-based 44-pin SD-to-IDE adapter for PS2 Slim SCPH-700xx
 
 ## Connecting the adapter to the PSX
