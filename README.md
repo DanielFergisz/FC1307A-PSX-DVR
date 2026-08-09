@@ -86,7 +86,7 @@ Photos from the 20 cm and 30 cm cable tests, are available in the repository:
 
 ### Cable comparison
 
-![PSX1 FFC cable comparison](docs/images/psx1/ffc-extension\psx1-ffc-cables-comparison.jpg)
+![PSX1 FFC cable comparison](docs/images/psx1/ffc-extension/psx1-ffc-cables-comparison.jpg)
 
 ## Preparing the card
 
