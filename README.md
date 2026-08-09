@@ -36,6 +36,8 @@ The remaining 384 bytes are filled with zeros. If the drive does not return the 
 
 ## Video
 
+[![Watch the FC1307A PSX DVR mod video](https://img.youtube.com/vi/S4Ubpu-f1K8/maxresdefault.jpg)](https://youtu.be/S4Ubpu-f1K8)
+
 [Watch the full FC1307A PSX DVR modification video on YouTube](https://youtu.be/S4Ubpu-f1K8)
 
 ## Tested hardware
@@ -80,13 +82,13 @@ The **20 cm cable is currently recommended**, as it provides significantly more 
 
 ### Test photos
 
-Photos from the 20 cm and 30 cm cable tests, are available in the repository:
+Photos from the 20 cm and 30 cm cable tests, including installation examples and cable comparison, are available in the repository:
 
 [View PSX1 FFC extension cable test photos](docs/images/psx1/ffc-extension/)
 
 ### Cable comparison
 
-![PSX1 FFC cable comparison](docs/images/psx1/ffc-extension/psx1-ffc-cables-comparison.jpg)
+![PSX1 FFC cable comparison](docs/images/psx1/ffc-extension\psx1-ffc-cables-comparison.jpg)
 
 ## Preparing the card
 
