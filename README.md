@@ -36,8 +36,6 @@ The remaining 384 bytes are filled with zeros. If the drive does not return the 
 
 ## Video
 
-[![Watch the FC1307A PSX DVR mod video](https://img.youtube.com/vi/S4Ubpu-f1K8/maxresdefault.jpg)](https://youtu.be/S4Ubpu-f1K8)
-
 [Watch the full FC1307A PSX DVR modification video on YouTube](https://youtu.be/S4Ubpu-f1K8)
 
 ## Tested hardware
@@ -57,6 +55,40 @@ The remaining 384 bytes are filled with zeros. If the drive does not return the 
 > The 40-pin IDE connector in the PSX is mounted upside down compared with a standard IDE hard drive. It has no key, so the cable can easily be connected the wrong way around.
 >
 > Before powering on the console, compare the cable orientation with the original HDD and make sure pin 1 is in the correct position. Connecting it backwards may damage the adapter or the console.
+
+## FFC cable extension tests
+
+The original ribbon cable between the PSX mainboard and the IDE connector board is approximately 5 cm long. This leaves very little room for positioning an SD-to-IDE adapter inside the console.
+
+The cable used in the tested first-generation PSX consoles has the following specification:
+
+- 50-pin FFC
+- 0.5 mm pitch
+- Contacts on the same side at both ends
+- Original length: approximately 5 cm
+
+Initial tests were performed with replacement cables measuring 20 cm and 30 cm.
+
+Both cable lengths successfully allowed the PSX to boot the system from the SD card using the FC1307A adapter.
+
+The **20 cm cable is currently recommended**, as it provides significantly more room for positioning the adapter while keeping the cable as short as reasonably possible.
+
+> [!NOTE]
+> These were initial functionality tests only. Long-term stability, HDD recording, game loading and extended read/write operations have not yet been fully tested with the longer cables.
+>
+> The 30 cm cable successfully booted the PSX system, but the 20 cm version is preferred unless the additional length is required.
+
+### 20 cm cable
+
+![PSX1 20 cm FFC cable test](docs/images/psx1/ffc-extension/psx1-ffc-extension-20cm-installed.jpg)
+
+### 30 cm cable
+
+![PSX1 30 cm FFC cable test](docs/images/psx1/ffc-extension/psx1-ffc-extension-30cm-installed.jpg)
+
+### Cable comparison
+
+![PSX1 FFC cable comparison](docs/images/psx1/ffc-extension/psx1-ffc-cables-comparison.jpg)
 
 ## Preparing the card
 
