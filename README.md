@@ -80,15 +80,15 @@ The **20 cm cable is currently recommended**, as it provides significantly more 
 
 ### 20 cm cable
 
-![PSX1 20 cm FFC cable test](docs/images/psx1/ffc-extension/psx1-ffc-extension-20cm-installed.jpg)
+![PSX1 20 cm FFC cable test](docs/images/psx1/psx1-ffc-extension-20cm-installed.jpg)
 
 ### 30 cm cable
 
-![PSX1 30 cm FFC cable test](docs/images/psx1/ffc-extension/psx1-ffc-extension-30cm-installed.jpg)
+![PSX1 30 cm FFC cable test](docs/images/psx1/psx1-ffc-extension-30cm-installed.jpg)
 
 ### Cable comparison
 
-![PSX1 FFC cable comparison](docs/images/psx1/ffc-extension/psx1-ffc-cables-comparison.jpg)
+![PSX1 FFC cable comparison](docs/images/psx1/psx1-ffc-cables-comparison.jpg)
 
 ## Preparing the card
 
