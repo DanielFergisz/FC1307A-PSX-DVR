@@ -94,7 +94,7 @@ Photos from the 20 cm and 30 cm cable tests, including installation examples and
 
 1. Flash the modified firmware to the FC1307A adapter.
    - Tested SPI flash IC: `BY25D40EST`
-   - Adapter production batches may use differently marked compatible 512 KB SPI flash chips (for example: P25D40SH etc.).
+   - Adapter production batches may use differently marked compatible 512 KB SPI flash chips: `P25D40SH`.
 2. Format the card using the original uLaunchELF HDD Manager on the PSX.
    - An FMCB memory card is required to run uLaunchELF on the PSX.
 3. Copy the contents of the `__system` and `__sysconf` partitions.
