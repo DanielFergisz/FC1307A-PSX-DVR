@@ -80,14 +80,22 @@ Sony Computer Entertainment Inc.DESR-7000        120
 
 The remaining 384 bytes are filled with zeros. If the drive does not return the expected data transfer and status sequence, the PSX rejects it.
 
-## Video
+## Videos
 
-[![Watch the FC1307A PSX DVR mod video](https://img.youtube.com/vi/S4Ubpu-f1K8/maxresdefault.jpg)](https://youtu.be/S4Ubpu-f1K8)
+### PSX1 — Original FC1307A HDD replacement project
 
-[Watch the full FC1307A PSX DVR modification video on YouTube](https://youtu.be/S4Ubpu-f1K8)
+[![Watch the original FC1307A PSX DVR mod video](https://img.youtube.com/vi/S4Ubpu-f1K8/maxresdefault.jpg)](https://youtu.be/S4Ubpu-f1K8)
+
+[Watch the original PSX1 FC1307A modification video on YouTube](https://youtu.be/S4Ubpu-f1K8)
+
+### PSX2 — Second revision support and automated HDD Setup
+
+[![Watch the PSX2 support and RepairBox HDD Setup video](https://img.youtube.com/vi/gVhUV-QnHn4/maxresdefault.jpg)](https://youtu.be/gVhUV-QnHn4)
+
+[Watch the PSX2 support and RepairBox.pl PSX HDD Setup video on YouTube](https://youtu.be/gVhUV-QnHn4)
 
 > [!NOTE]
-> The original video shows the earlier PSX1 procedure. The current `RepairBox.pl PSX HDD Setup v1.0` supports both PSX1 and PSX2 and automatically performs the required HDD formatting and system installation.
+> The first video documents the original PSX1-only procedure. The second video covers PSX2 support and the current `RepairBox.pl PSX HDD Setup v1.0`, which supports both PSX revisions and automatically performs the required storage preparation and system installation.
 
 ## Tested hardware
 
@@ -424,6 +432,9 @@ Upstream project and source code:
 > Always make a backup of the original FC1307A SPI flash before programming.
 >
 > Verify that the adapter uses an FC1307A controller and a compatible 512 KB SPI flash chip before flashing.
+
+> [!CAUTION]
+> HDD/SD card preparation is destructive. Existing partitions and data on the selected storage device will be erased.
 
 > [!NOTE]
 > PSX1 and PSX2 use different storage layouts and initialization procedures. Always select the correct revision for your console.
