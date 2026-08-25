@@ -433,8 +433,5 @@ Upstream project and source code:
 >
 > Verify that the adapter uses an FC1307A controller and a compatible 512 KB SPI flash chip before flashing.
 
-> [!CAUTION]
-> HDD/SD card preparation is destructive. Existing partitions and data on the selected storage device will be erased.
-
 > [!NOTE]
 > PSX1 and PSX2 use different storage layouts and initialization procedures. Always select the correct revision for your console.
