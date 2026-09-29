@@ -404,9 +404,9 @@ The language packages are complete installation bundles. Each package includes `
 
 Choose the package matching the system language you want to install:
 
-- [Polish package — PL](https://drive.google.com/file/d/14h86nt2Myi-6ReXkYhU1_xzZA640sIjz/view?usp=sharing)
-- [English package — EN](https://drive.google.com/file/d/1Tn6brdV7pmyhIxk6ZWJ1auCVyxPAPnPV/view?usp=sharing)
-- [Original Japanese package — JP](https://drive.google.com/file/d/10JWiaM9BJDOFjaYJY0EzrbPxC-XJ3pUB/view?usp=sharing)
+- [Polish package — PL](https://drive.google.com/file/d/1HMWEF0rY7nm0ZksFapu_0RYFwA6E67Aj/view?usp=sharing)
+- [English package — EN](https://drive.google.com/file/d/1FjzAhc510617HnPV5F-vRG8m4WtTbchO/view?usp=sharing)
+- [Original Japanese package — JP](https://drive.google.com/file/d/1KzZ484nptau8bPKodE2HPwLgIFJLIpS6/view?usp=sharing)
 
 > [!NOTE]
 > Each language package contains the system files for both PSX1 and PSX2. Select the correct console revision in `RepairBox.pl PSX HDD Setup v1.0`; do not mix PSX1 v1.31 files with a PSX2 installation or PSX2 v2.11 files with a PSX1 installation.
